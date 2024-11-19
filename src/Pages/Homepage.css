@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  background-color: rgb(240, 244, 245);
+}
+
+.navbar-logo img {
+  width: 75px; /* Adjust the size of the logo */
+  height: auto;
+}
+.navbar-links li {
+  display: inline;
+}
+.navbar-links a {
+  color: rgb(12, 12, 12);
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+.navbar-links a:hover {
+  color: rgb(220, 223, 225);
+}
+.login {
+  padding: 5px;
+}
+.navbar-search {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.navbar-search input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid rgb(240, 244, 245);
+  border-radius: 4px 0 0 4px;
+}
+
+.navbar-search button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #f0a500;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+.navbar-search button:hover {
+    color: #e69900;
+}
